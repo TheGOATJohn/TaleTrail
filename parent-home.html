@@ -17,33 +17,30 @@
         <nav>
             <ul class="navbar">
                 <li><a href="parent-home.html"><img src="images/taletraillogo.png" alt="Logo/Home" class="logo"></a></li>
-
                 <li><button><a href="switchprofile.html"><img src="images/switchprofile.png" alt="" class="icon">Switch Profile</a></button></li>
-
                 <li><button class="nav-butt"><a href="index.html"><img src="images/exit.png" alt="" class="icon">Log Out</a></button></li>
             </ul>
         </nav>
     </header>
     
-        <!-- Roadmap Popup -->
-        <button id="roadmap-button" onclick="openRoadmap()">
-                <img src="images/roadmap.png" alt="" style="height: 80px;"> View Roadmap 
-            </a>
-        </button>
-        <div class="popup-container" id="roadmap-popup">
-            <button type="button" class="close-button" onclick="closeRoadmap()"> X </button>
-            <h1>Your child's roadmap </h1>
-            <p>Here is the roadmap for your child's TaleTrail journey. </p>
-            <p>Click on the milestones to view more details.</p>
-          </div>
-        
-  
-        <button id = "add-log-button" onclick="openAddLog()">
-           Add Log        
-        </button>
-        <!-- Add log popup-->
-         <div class="log-popup" id="myPopup">
-            <form action="" class="popup-container">
+    <!-- Roadmap Popup -->
+    <button id="roadmap-button" onclick="openRoadmap()">
+        <img src="images/roadmap.png" alt="" style="height: 80px;"> View Roadmap 
+    </button>
+    <div class="popup-container" id="roadmap-popup">
+        <button type="button" class="close-button" onclick="closeRoadmap()"> X </button>
+        <h1>Your child's roadmap </h1>
+        <p>Here is the roadmap for your child's TaleTrail journey. </p>
+        <p>Click on the milestones to view more details.</p>
+    </div>
+    
+    <button id="add-log-button" onclick="openAddLog()">
+        Add Log        
+    </button>
+    
+    <!-- Add log popup-->
+    <div class="log-popup" id="myPopup">
+        <form action="" class="popup-container">
             <button type="button" class="close-button" onclick="closeAddLog()"> X </button>
             <h1>Add Log</h1>
             <label for="search-input"></label>
