@@ -173,5 +173,29 @@ opacity: 90%;
     height: 100px;
     color: #C60000;
     font-weight: bold;
+
+    #log-history-popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        border: 30px solid #C60000;
+        background-color: white;
+    }
+    
+    #log-history-popup .popup-container {
+        max-width: 400px;
+        max-height: 500px;
+        overflow-y: auto;
+        padding: 20px;
+    }
+    
+    #log-history-popup .log-entry {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
 }
 
