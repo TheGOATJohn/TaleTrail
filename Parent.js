@@ -39,4 +39,8 @@ class Parent {
     }
 }
 
+<<<<<<< HEAD
 module.exports = Parent;
+=======
+export default Parent;
+>>>>>>> 3a0972e64faa39a5776974559e28c123fe03775a
